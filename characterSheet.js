@@ -473,7 +473,7 @@ function addAttribute(attribute, id) {
       <img class="attributeDice" src="./img/dado.png" alt="Dado">
     </a>
     <h3>${attribute.type}</h3>
-    <input type="text" name="appearance" value="${attribute.amount}"  id="attribute_input_${id}" >
+    <input type="text" name="appearance" value="${attribute.amount}"  id="attribute_input_${id}" disabled>
   </div>
   
 <script>
